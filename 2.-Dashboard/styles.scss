@@ -309,3 +309,44 @@ main .insights svg circle{
     stroke-dasharray: 110;
     stroke-dashoffset: 92;
 }
+
+main .insights .sales svg circle{
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .insights .expenses svg circle{
+    stroke-dashoffset: 20;
+    stroke-dasharray: 80;
+}
+
+main .insights .income svg circle{
+    stroke-dashoffset: 35;
+    stroke-dasharray: 110;
+}
+
+main .insights .progress .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .insights small{
+    margin-top: 1.3rem;
+    display: block;
+}
+
+/******************** RECENT ORDERS ********************/
+
+main .recent-orders{
+    margin-top: 2rem;
+}
+
+main .recent-orders h2{
+    margin-bottom: 0.8rem;
+}
